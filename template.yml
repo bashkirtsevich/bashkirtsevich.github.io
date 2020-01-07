@@ -1,0 +1,242 @@
+css:
+  src: templates/css/*
+  dst: css/
+
+fonts:
+  src: templates/fonts/*
+  dst: fonts/
+
+js:
+  src: templates/js/*
+  dst: js/
+
+index:
+  src: templates/index.html
+  dst: index.html
+  env:
+    title: "D.A. Bashkirtsev - Systems architect"
+    profile_image: "images/profile.jpg"
+    home: "Dmitrii Bashkirtsev"
+
+    slides:
+      - image: "images/img_bg_1.jpg"
+        h1: "Hi! <br>I'm Dmitrii Bashkirtsev"
+        h2: "Systems IT Architector"
+        button:
+          section: "experience"
+          text: "View CV "
+          icon: "icon-pen"
+
+      - image: "images/img_bg_2.jpg"
+        h1: "I am a <br>Programmer"
+        h2: "On Python 3.8"
+        button:
+          section: "projects"
+          text: "View Portfolio "
+          icon: "icon-briefcase"
+
+    whoami:
+      text: |
+        <p><strong>Hi I'm Dmitrii Bashkirtsev</strong>. Systems architect. Also I develop desktop, web and AI application on Python 3.8 using with asyncio, aiohttp, Keras, Tensorflow, PyTorch, Flask, Django, Celery, pyMongo and so on. Prefer to using microservices architecture with RedHat OpenShift.</p>
+        <p>Also I love to make some interesting mechanisms on <strong>Arduino</strong> & <strong>RaspberryPi</strong>.</p>
+        <p>Delphi XE-10 developer in past.</p>
+
+      badges:
+        - color: "color-4"
+          icon: "icon-github"
+          url: "https://github.com/bashkirtsevich"
+          title: "My profile at GitHub"
+
+        - color: "color-2"
+          icon: "icon-user-tie"
+          url: "https://github.com/bashkirtsevich-llc"
+          title: "Bashkirtsevich-LLC"
+
+        - color: "color-3"
+          icon: "icon-python"
+          url: "https://pypi.org/user/Bashkirtsevich/"
+          title: "My profile at PyPi.org"
+
+        - color: "color-1"
+          icon: "icon-docker"
+          url: "https://hub.docker.com/u/bashkirtsevich"
+          title: "My profile at DockerHub"
+
+    prog_languages:
+      - color: color-1
+        title: Python 3.8
+        gauge: 94.7
+
+      - color: color-2
+        title: Haskell
+        gauge: 67.9
+
+      - color: color-3
+        title: SQL
+        gauge: 62
+
+      - color: color-4
+        title: Delphi (totally forgot)
+        gauge: 85.1
+
+      - color: color-5
+        title: C#
+        gauge: 43.7
+
+      - color: color-6
+        title: C++
+        gauge: 32.3
+
+    technologies:
+      - color: color-1
+        title: Git
+        gauge: 67.9
+
+      - color: color-6
+        title: Arduino
+        gauge: 28.4
+
+      - color: color-2
+        title: RabbitMQ
+        gauge: 74.7
+
+      - color: color-3
+        title: Docker
+        gauge: 96
+
+      - color: color-4
+        title: Elasticsearch
+        gauge: 81.2
+
+      - color: color-5
+        title: Linux
+        gauge: 67.9
+
+    education:
+      - name: "Perm National Research Polytechnic University"
+        icon: "images/pstu.png"
+        period: "2009-2013"
+
+      - name: "Perm Industrial And Commercial College"
+        icon: "images/ppcc.png"
+        period: "2006-2009"
+
+    experience:
+      - color: color-1
+        label: "Systems architect"
+        company: "R.D.H."
+        period: "2018-present"
+        description: "Systems architect, document writer, IT researcher & investigator."
+
+      - color: color-2
+        label: "Systems architect"
+        company: "Parma TG"
+        period: "2018-2019"
+        description: "Systems architect, DevOps engineer, python 3.7 developer. Microservice architecture, distributed computing, CI/CD, Docker, GitLab, AI, ML."
+
+      - color: color-3
+        label: "Python developer"
+        company: "personal projects"
+        period: "2016-present"
+        description: "Developing personal projects such as: Grapefruit torrent search engine, based on asyncio (twisted in old version), aiohttp (flask in old version) and mongo; Telegram bots, etc."
+
+      - color: color-4
+        label: "Python developer"
+        company: "FinIT"
+        period: "2017-2018"
+        description: "Python 3 developer. Scoring developer, Docker, GitLab, microservices."
+
+      - color: color-5
+        label: "Lead application developer"
+        company: "Parma TG"
+        period: "2016-2017"
+        description: "Business analysis, OLAP, BI-platforms, statutory reporting. Programming languages: Python, Java, JasaScript, Fore. Databases: Oracle 11, MSSQL, PostgreSQL."
+
+      - color: color-2
+        label: "Delphi XE10 developer"
+        company: "personal projects"
+        period: "2016"
+        description: "Working on debut delphi pjoject. Developing bittorrent client, named \"Lime torrent\". General purposes: most simply and user friendly interface, based on google material design; streamimg audio and video from torrent, while it downloading."
+
+      - color: color-4
+        label: "Delphi XE5 Programmer, team leader"
+        company: "Stream LLC"
+        period: "2013-2015"
+        description: "Developing bittorrent-client, media delivering network."
+
+      - color: color-2
+        label: "Delphi 2009 Developer"
+        company: "GSC Prognoz"
+        period: "2010-2013"
+        description: "Developing thin and rich client for automated bank system. Features: VCL forms, reporting pages, security system. Database: Oracle 11, PL/SQL."
+
+      - color: color-3
+        label: "Technician"
+        company: "Hydrometeorological Centre"
+        period: "2007-2010"
+        description: "Developing system for store meteorological information."
+
+    projects:
+      - url: "https://github.com/bashkirtsevich-llc/cazador/"
+        icon: "images/cazador.png"
+        date: "Feb 20, 2019"
+        lang: "Python 3.7 (asyncio)"
+        name: "Cazador — the ssh-tunnel"
+        description: "<strong>Cazador</strong> — is a simply ssh-tunnel for simplify ssh connections."
+
+      - url: "https://bashkirtsevich-llc.github.io/grapefruit/"
+        icon: "images/grapefruit2.png"
+        date: "Oct 02, 2017"
+        lang: "Python 3.6.3 (asyncio)"
+        name: "Grapefruit 2.0 — torrent search engine"
+        description: |
+          <strong>Grapefruit v.2.0</strong> — is a new version of bittorrent dht-network crawler bot.<br>
+          New version is simply and faster, low memory usage. Application prepared for execution in Docker<br>
+          Based on asyncio, aiohttp and motor.
+
+      - url: "https://github.com/bashkirtsevich-llc/grapefruit-py27"
+        icon: "images/grapefruit.png"
+        date: "Apr 05, 2017"
+        lang: "Python 2.7"
+        name: "Grapefruit torrent search engine"
+        description: |
+          <strong>Grapefruit</strong> — is a bittorrent dht-network crawler bot. Analyzing bittorrent dht-network and loading only torrent hash and files list metainformation.
+          Based on Twisted, Flask, MongoDB.
+
+      - url: "https://madfrucht.github.io/Lime/"
+        icon: "images/lime.png"
+        date: "Feb 07, 2016"
+        lang: "Delphi XE10"
+        name: "Lime torrent"
+        description: "<strong>Lime torrent</strong> — is a simply in use bittorrent-client with streaming media function. Allows to watch movies and listen music while downloading, without 100% download completion."
+
+      - url: "https://github.com/bashkirtsevich/pyAnecdotesTelegramBot"
+        icon: "images/anecdotes_bot_logo.png"
+        date: "Dec 15, 2016"
+        lang: "Python 2.7"
+        name: "Anecdotes bot"
+        description: "<strong>Anecdotes bot</strong> — is a simply bot for Telegram messenger. Working on heroku cloud service. Using MongoDB as message source."
+
+      - url: "https://bashkirtsevich-llc.github.io/SoundAnalyser/"
+        icon: "images/msa_form.png"
+        date: "Dec 23, 2015"
+        lang: "Delphi XE10"
+        name: "Sound analyzer"
+        description: "<strong>Sound analyzer</strong> — small tool for sound analysis. Software provide to draw FFT sound spectrum with amplitude and time rulers. Can be used for detect transcoded soundfiles, and genuine soundtrack quality. Based on FFMpeg libraries."
+
+    contacts:
+      - icon: "icon-facebook2"
+        url: "https://www.facebook.com/dimitry.bashkirtsevich"
+        title: "facebook.com/dimitry.bashkirtsevich"
+
+      - icon: "icon-linkedin"
+        url: "https://www.linkedin.com/in/d-a-bashkirtsev/"
+        title: "linkedin.com/in/d-a-bashkirtsev"
+
+      - icon: "icon-github"
+        url: "https://github.com/bashkirtsevich"
+        title: "github.com/bashkirtsevich"
+
+      - icon: "icon-mail4"
+        url: "mailto:bashkirtsevich@gmail.com"
+        title: "bashkirtsevich@gmail.com"
