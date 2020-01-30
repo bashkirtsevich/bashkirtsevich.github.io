@@ -65,51 +65,63 @@ index:
     prog_languages:
       - color: color-1
         title: Python 3.8
+        level: professional
         gauge: 94.7
 
       - color: color-2
         title: Haskell
-        gauge: 67.9
+        level: strong
+        gauge: 87.9
 
       - color: color-3
         title: SQL
+        level: strong
         gauge: 62
 
       - color: color-4
         title: Delphi (totally forgot)
+        level: professional in past
         gauge: 85.1
 
       - color: color-5
         title: C#
+        level: middle
         gauge: 43.7
 
       - color: color-6
         title: C++
+        level: middle
         gauge: 32.3
 
     technologies:
       - color: color-1
         title: Git
+        level: professional
         gauge: 67.9
 
       - color: color-6
         title: Arduino
+        level: hobby
         gauge: 28.4
 
       - color: color-2
         title: RabbitMQ
+        level: professional
         gauge: 74.7
 
       - color: color-3
         title: Docker
+        level: professional
         gauge: 96
 
       - color: color-4
         title: Elasticsearch
+        level: professional
         gauge: 81.2
 
       - color: color-5
         title: Linux
+        level: professional
         gauge: 67.9
 
     education:
